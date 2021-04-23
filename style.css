@@ -1,16 +1,153 @@
 /* Type your code here */
+*{
+	margin:5px;
+	font-family: sans-serif;
+	}
+body{
+	background-image: url("./assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right; 
+	
+}
+#logo{
+	display:flex;
+	flex-direction: row-reverse;   
+}
+main{
+	margin-left: 50px;
+}
+a{
+	position:relative;
+	text-decoration: none;
+	color:#3399ff;
+}
+h2{
+	font-size: 50px;
+	text-shadow: 1px 1px 4px #000000;	 
+}
+p{
+	font-size: 25px;
+	color:rgb(143, 143, 143);
+	font-weight: bold;
+}
+table{
+	margin-top: 30px;
+	background-color: rgba(248, 248, 248, 0.712);
+	font-size: 18px;
+	width:65%;	
+	border-collapse: collapse;
+	}
+.color{
+	background-color: tomato;
+	color:white;
+}
+th,td{
+	height:35px;
+	border-bottom:1px solid #000000; 
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-color:rgb(187, 187, 187);
+	padding:2px;
+	}
 
-
+.leftalign{
+	text-align: left;
+	padding-left: 20px;
+	
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
-    flex-direction: row;
+    flex-direction: row;	
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 50px;
+	margin-left: 60px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+    font-style: normal;    
 }
+
+#ch{
+	color:rgb(146, 146, 146)
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;	
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 0;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 60%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
+
+  .tooltip1 {
+	position: relative;
+	display: inline-block;
+	
+  }
+  
+  .tooltip1 .tooltiptext1 {
+	visibility: hidden;
+	width: 120px;
+	
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+  }
+  
+  .tooltip1:hover .tooltiptext1 {
+	visibility: visible;
+  }
+
+  .tooltip2 {
+	position: relative;
+	display: inline-block;
+	
+  }
+  
+  .tooltip2 .tooltiptext2 {
+	visibility: hidden;
+	width: 120px;
+	
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: 20px;
+	top: -300px;
+  }
+  
+  .tooltip2:hover .tooltiptext2 {
+	visibility: visible;
+  }
