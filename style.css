@@ -1,4 +1,5 @@
 /* Type your code here */
+/* change the font family and spacing as per your project font */
 *{
 	margin:5px;
 	font-family: sans-serif;
@@ -56,7 +57,7 @@ th,td{
 	padding-left: 20px;
 	
 }
-/* change the font family and spacing as per your project font */
+
 .footer{
     display:flex;
     flex-direction: row;	
@@ -73,6 +74,7 @@ th,td{
 	color:rgb(146, 146, 146)
 }
 
+/* Code to popup the players profile */
 .tooltip {
 	position: relative;
 	display: inline-block;
